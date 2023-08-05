@@ -49,7 +49,7 @@ export default function Faq() {
   return (
     <section className={styles.container}>
       <h1 className={styles.title}>FAQ</h1>
-      <section>
+      <section className={styles.question__wrapper}>
         {faqData.map((q, index) => (
           <Question
             key={index}

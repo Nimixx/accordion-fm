@@ -1,6 +1,6 @@
 .card {
-  width: 80rem;
-  height: 45rem;
+  width: 75rem;
+  height: 50rem;
   background-color: var(--bg-color-card);
   border-radius: 2rem;
   overflow: hidden;
@@ -8,4 +8,8 @@
   justify-content: flex-start;
   align-items: center;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  @media screen and (min-width: 874px) {
+    width: 80rem;
+    height: 45rem;
+  }
 }

@@ -1,5 +1,5 @@
 import styles from "./question.module.css";
-import { ChevronDown, ChevronUp } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 
 type QuestionProps = {
   question: string;
@@ -15,7 +15,7 @@ export default function Question({
   isExpanded,
 }: QuestionProps) {
   return (
-    <article>
+    <article className={styles.container}>
       <button
         onClick={onClick}
         className={`${styles.question} ${isExpanded && styles.question__open}`}

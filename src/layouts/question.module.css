@@ -1,6 +1,11 @@
+.container {
+  width: 100%;
+}
+
 .question {
   width: 100%;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  text-align: left;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,6 +20,9 @@
   &:hover {
     color: var(--text-color-light);
   }
+  @media screen and (min-width: 460px) {
+    font-size: 1.5rem;
+  }
 }
 
 .question__open {
@@ -22,7 +30,7 @@
 }
 
 .answer {
-  max-width: 30rem;
+  width: 100%;
   font-size: 1.3rem;
   color: var(--text-color-lighter);
   margin-top: 1rem;

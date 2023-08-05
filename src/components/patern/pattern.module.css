@@ -12,9 +12,13 @@
 .imageWrapper {
   width: 100%;
   height: auto;
-  position: absolute;
-  left: -50rem;
-  top: -25rem;
+  display: none;
+  @media screen and (min-width: 874px) {
+    display: block;
+    position: absolute;
+    left: -50rem;
+    top: -25rem;
+  }
 }
 
 .pattern {
@@ -27,11 +31,8 @@
   height: auto;
   margin-left: -5rem;
   z-index: 50;
-}
-
-.box {
-  position: absolute;
-  top: 18rem;
-  left: -10rem;
-  z-index: 100;
+  display: none;
+  @media screen and (min-width: 874px) {
+    display: block;
+  }
 }
