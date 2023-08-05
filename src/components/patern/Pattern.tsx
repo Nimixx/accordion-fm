@@ -1,6 +1,6 @@
 import styles from "./pattern.module.css";
-import PatternSrc from "../../../assets/bg-pattern-desktop.svg";
-import DesignSrc from "../../../assets/illustration-woman-online-desktop.svg";
+import PatternSrc from "../../assets/bg-pattern-desktop.svg";
+import DesignSrc from "../../assets/illustration-woman-online-desktop.svg";
 
 export default function Patern() {
   return (

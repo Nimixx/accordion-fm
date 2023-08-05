@@ -1,0 +1,43 @@
+.question {
+  width: 100%;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  color: var(--text-color-lighter);
+  > span {
+    width: 1.5rem;
+    color: var(--text-color-red);
+  }
+}
+
+.question__open {
+  color: var(--text-color-light);
+}
+
+.answer {
+  max-width: 30rem;
+  font-size: 1.3rem;
+  color: var(--text-color-lighter);
+  margin-top: 1rem;
+  animation: fadeUp 250ms ease;
+}
+
+.divider {
+  width: 100%;
+  margin: 1rem 0;
+  border-bottom: 1px solid var(--divider-color);
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
