@@ -6,17 +6,22 @@ import faqData from "./faqData.json";
 export default function Faq() {
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
 
-  const handleClick = (index: number) => {
-    setExpandedIndex((prevIndex) => (prevIndex === index ? null : index));
+  const handleKeyDown = (event: KeyboardEvent) => {
+    if (event.key === "Escape") {
+      setExpandedIndex(null);
+    } else if (expandedIndex !== null) {
+      if (event.key === "ArrowUp" || event.key === "ArrowDown") {
+        event.preventDefault();
+        const newIndex =
+          event.key === "ArrowUp"
+            ? (expandedIndex - 1 + faqData.length) % faqData.length
+            : (expandedIndex + 1) % faqData.length;
+        setExpandedIndex(newIndex);
+      }
+    }
   };
 
   useEffect(() => {
-    const handleKeyDown = (event: KeyboardEvent) => {
-      if (event.key === "Escape" && expandedIndex !== null) {
-        setExpandedIndex(null);
-      }
-    };
-
     document.addEventListener("keydown", handleKeyDown);
 
     return () => {
@@ -33,7 +38,11 @@ export default function Faq() {
             key={index}
             question={q.question}
             answer={q.answer}
-            onClick={() => handleClick(index)}
+            onClick={() =>
+              setExpandedIndex((prevIndex) =>
+                prevIndex === index ? null : index
+              )
+            }
             isExpanded={index === expandedIndex}
           />
         ))}

@@ -13,8 +13,9 @@
 }
 
 .question:focus {
-  outline: 1px solid var(--text-color-red);
-  outline-offset: 0.5rem;
+  /* outline: 1px solid var(--text-color-red);
+  outline-offset: 0.5rem; */
+  outline: none;
 }
 
 .question__open {
