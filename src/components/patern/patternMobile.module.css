@@ -1,0 +1,28 @@
+.pattern {
+  position: absolute;
+  width: 15rem;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  @media screen and (min-width: 560px) {
+    width: 20rem;
+  }
+  @media screen and (min-width: 874px) {
+    display: none;
+  }
+}
+
+.woman {
+  position: absolute;
+  width: 15rem;
+  top: -6rem;
+  left: 50%;
+  transform: translateX(-50%);
+  @media screen and (min-width: 560px) {
+    top: -8rem;
+    width: 20rem;
+  }
+  @media screen and (min-width: 874px) {
+    display: none;
+  }
+}

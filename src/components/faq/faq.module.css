@@ -9,9 +9,12 @@
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
   margin-bottom: 2rem;
+  @media screen and (min-width: 874px) {
+    font-size: 2.5rem;
+  }
 }
 
 .question__wrapper {
