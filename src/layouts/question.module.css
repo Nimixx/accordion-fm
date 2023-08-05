@@ -6,16 +6,17 @@
   align-items: center;
   gap: 1.5rem;
   color: var(--text-color-lighter);
+  transition: color 250ms ease;
   > span {
     width: 1.5rem;
     color: var(--text-color-red);
   }
-}
-
-.question:focus {
-  /* outline: 1px solid var(--text-color-red);
-  outline-offset: 0.5rem; */
-  outline: none;
+  &:hover {
+    color: var(--text-color-light);
+  }
+  &:focus {
+    outline: none;
+  }
 }
 
 .question__open {
