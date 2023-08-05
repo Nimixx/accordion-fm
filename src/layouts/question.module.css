@@ -12,6 +12,11 @@
   }
 }
 
+.question:focus {
+  outline: 1px solid var(--text-color-red);
+  outline-offset: 0.5rem;
+}
+
 .question__open {
   color: var(--text-color-light);
 }
