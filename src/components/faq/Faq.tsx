@@ -29,6 +29,23 @@ export default function Faq() {
     };
   }, [expandedIndex]);
 
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      const target = event.target as Node;
+      const container = document.querySelector(`.${styles.container}`);
+
+      if (container && !container.contains(target)) {
+        setExpandedIndex(null);
+      }
+    };
+
+    document.addEventListener("click", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
+  }, []);
+
   return (
     <section className={styles.container}>
       <h1 className={styles.title}>FAQ</h1>

@@ -21,7 +21,13 @@ export default function Question({
         className={`${styles.question} ${isExpanded && styles.question__open}`}
       >
         <h4>{question}</h4>
-        <span>{isExpanded ? <ChevronUp /> : <ChevronDown />}</span>
+        <span>
+          {isExpanded ? (
+            <ChevronDown className={styles.arrow__up} />
+          ) : (
+            <ChevronDown className={styles.arrow__down} />
+          )}
+        </span>
       </button>
       {isExpanded && <p className={styles.answer}>{answer}</p>}
       <div className={styles.divider}></div>

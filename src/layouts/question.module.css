@@ -7,15 +7,13 @@
   gap: 1.5rem;
   color: var(--text-color-lighter);
   transition: color 250ms ease;
+  outline: none;
   > span {
     width: 1.5rem;
     color: var(--text-color-red);
   }
   &:hover {
     color: var(--text-color-light);
-  }
-  &:focus {
-    outline: none;
   }
 }
 
@@ -37,6 +35,18 @@
   border-bottom: 1px solid var(--divider-color);
 }
 
+.arrow__up {
+  transform-origin: center;
+  transition: transform 250ms ease;
+  transform: rotate(180deg);
+}
+
+.arrow__down {
+  transform-origin: center;
+  transition: transform 250ms ease;
+  transform: rotate(0deg);
+}
+
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -46,5 +56,15 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(180deg);
   }
 }
