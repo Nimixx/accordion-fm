@@ -3,6 +3,7 @@
 :root {
   --bg-gradient-start: hsl(273, 75%, 66%);
   --bg-gradinet-end: hsl(240, 73%, 65%);
+  --bg-color-card: hsl(0, 0%, 100%);
   --text-color: hsl(238, 29%, 16%);
   --text-color-light: hsl(237, 12%, 33%);
   --text-color-lighter: hsl(240, 6%, 50%);

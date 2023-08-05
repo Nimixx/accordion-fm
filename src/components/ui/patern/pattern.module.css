@@ -1,0 +1,37 @@
+.container {
+  max-width: 40%;
+  min-height: 100%;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageWrapper {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: -50rem;
+  top: -25rem;
+}
+
+.pattern {
+  min-width: 86rem;
+  height: auto;
+}
+
+.woman__image {
+  min-width: 45rem;
+  height: auto;
+  margin-left: -5rem;
+  z-index: 50;
+}
+
+.box {
+  position: absolute;
+  top: 18rem;
+  left: -10rem;
+  z-index: 100;
+}
