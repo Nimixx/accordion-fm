@@ -8,7 +8,10 @@
   align-items: center;
   box-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.173);
   position: relative;
-  @media screen and (min-width: 874px) {
+}
+
+@media screen and (min-width: 874px) {
+  .card {
     width: 80rem;
     height: 45rem;
     overflow: hidden;

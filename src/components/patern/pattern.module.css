@@ -12,12 +12,6 @@
   width: 100%;
   height: auto;
   display: none;
-  @media screen and (min-width: 874px) {
-    display: block;
-    position: absolute;
-    left: -50rem;
-    top: -25rem;
-  }
 }
 
 .pattern {
@@ -31,7 +25,19 @@
   margin-left: -5rem;
   z-index: 50;
   display: none;
-  @media screen and (min-width: 874px) {
+}
+
+@media screen and (min-width: 874px) {
+  .imageWrapper {
+    display: block;
+    position: absolute;
+    left: -50rem;
+    top: -25rem;
+  }
+}
+
+@media screen and (min-width: 874px) {
+  .woman__image {
     display: block;
   }
 }

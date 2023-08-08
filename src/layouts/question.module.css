@@ -13,16 +13,15 @@
   color: var(--text-color-lighter);
   transition: color 250ms ease;
   outline: none;
-  > span {
-    width: 1.5rem;
-    color: var(--text-color-red);
-  }
-  &:hover {
-    color: var(--text-color-light);
-  }
-  @media screen and (min-width: 460px) {
-    font-size: 1.5rem;
-  }
+}
+
+.question span {
+  width: 1.5rem;
+  color: var(--text-color-red);
+}
+
+.question:hover {
+  color: var(--text-color-light);
 }
 
 .question__open {
@@ -53,6 +52,12 @@
   transform-origin: center;
   transition: transform 250ms ease;
   transform: rotate(0deg);
+}
+
+@media screen and (min-width: 460px) {
+  .question {
+    font-size: 1.6rem;
+  }
 }
 
 @keyframes fadeUp {
