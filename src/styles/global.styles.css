@@ -9,6 +9,7 @@
   --text-color-lighter: hsl(240, 6%, 50%);
   --text-color-red: hsl(14, 88%, 65%);
   --divider-color: hsl(240, 5%, 91%);
+  --shadow-color: hsl(237, 12%, 33%);
 }
 
 html {
