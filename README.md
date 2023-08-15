@@ -1,27 +1,38 @@
-# React + TypeScript + Vite
+# FAQ card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![](https://ik.imagekit.io/ljtbrc2pd/Projects/nimixx-dark.png?updatedAt=1692008047424)](https://www.nimixx.dev/)
 
-Currently, two official plugins are available:
+This project was build with classic basic stuck and was build like a challenge on Front End Mentor.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Live web](https://www.nimixx.dev/ "Live web")
 
-## Expanding the ESLint configuration
+#### TechSutck
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [React](https://react.dev/ "React")
+- [Typescript](https://www.typescriptlang.org/ "Typescript")
+- [TailwindCSS](https://tailwindcss.com/ "TailwindCSS")
+- [Vite](https://vitejs.dev/ "Vite")
 
-- Configure the top-level `parserOptions` property like this:
+#### Libraries
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+- [shadcnui](https://ui.shadcn.com/ "shadcnui")
+- [CVA](https://cva.style/docs/getting-started/installation "CVA")
+- [Lucide Icons](https://lucide.dev/icons/ "Lucide Icons")
+
+#### What i try to learn
+
+In this project i try to write maintaible and clean code as i can in time. I try to use function like a map of object and also modern css.
+
+```tsx
+<ul className="flex flex-wrap items-center justify-start gap-5 text-gray-600 dark:text-gray-500">
+  {project.technologies.map((tech, idx) => (
+    <li
+      key={idx}
+      className={`${technologyColors[tech] || 'text-gray-600 dark:text-gray-500'}`}
+    >
+      <strong>{tech}</strong>
+    </li>
+  ))}
+</ul>
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+##### Links
