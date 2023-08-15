@@ -1,7 +1,5 @@
 
 # FAQ - component challenge
-=======
-# FAQ card
 
 ![](https://github.com/Nimixx/accordion-fm/assets/51626851/0fb56381-b24a-48d2-aa59-f48ca4e91872)
 
