@@ -1,7 +1,7 @@
 
 # FAQ - component challenge
 
-![](https://github.com/Nimixx/accordion-fm/assets/51626851/0fb56381-b24a-48d2-aa59-f48ca4e91872)
+![](https://github.com/Nimixx/accordion-fm/assets/51626851/0fb56381-b24a-48d2-aa59-f48ca4e91872)(https://nimixx.github.io/accordion-fm/)
 
 This project was build with classic basic stuck and was build like a challenge on Front End Mentor.
 
@@ -18,7 +18,7 @@ This project was build with classic basic stuck and was build like a challenge o
 
 ##### Links
 
-- [Live component](https://www.nimixx.dev/ )
+- [Live component](https://nimixx.github.io/accordion-fm/)
 - [Front End Mentor](https://www.frontendmentor.io/profile/Nimixx)
 - [Nimixx.dev](https://www.nimixx.dev/)
 
