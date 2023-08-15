@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig(({ command }) => {
   const config = {
     plugins: [react()],
-    base: 'accordion-fm',
+    base: '/accordion-fm/',
   }
 
   if (command !== 'serve') {
