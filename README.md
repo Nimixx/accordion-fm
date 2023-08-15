@@ -17,6 +17,6 @@ This project was build with classic basic stuck and was build like a challenge o
 
 ##### Links
 
-- [Live component](https://www.nimixx.dev/ "Live web")
-- Front End Mentor
-- Portfolio
+- [Live component](https://www.nimixx.dev/ )
+- [Front End Mentor](https://www.frontendmentor.io/profile/Nimixx)
+- [Nimixx.dev](https://www.nimixx.dev/)
