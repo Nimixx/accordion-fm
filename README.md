@@ -1,6 +1,6 @@
 # FAQ card
 
-[![](https://ik.imagekit.io/ljtbrc2pd/Projects/nimixx-dark.png?updatedAt=1692008047424)](https://www.nimixx.dev/)
+![](https://github.com/Nimixx/accordion-fm/assets/51626851/0fb56381-b24a-48d2-aa59-f48ca4e91872)
 
 This project was build with classic basic stuck and was build like a challenge on Front End Mentor.
 
@@ -8,16 +8,14 @@ This project was build with classic basic stuck and was build like a challenge o
 
 #### TechSutck
 
-- [React](https://react.dev/ "React")
-- [Typescript](https://www.typescriptlang.org/ "Typescript")
-- [TailwindCSS](https://tailwindcss.com/ "TailwindCSS")
-- [Vite](https://vitejs.dev/ "Vite")
+- [React](https://react.dev/)
+- [Typescript](https://www.typescriptlang.org/)
+- [CSSModules](https://github.com/css-modules/css-modules)
+- [Vite](https://vitejs.dev/)
 
 #### Libraries
 
-- [shadcnui](https://ui.shadcn.com/ "shadcnui")
-- [CVA](https://cva.style/docs/getting-started/installation "CVA")
-- [Lucide Icons](https://lucide.dev/icons/ "Lucide Icons")
+- [Lucide Icons](https://lucide.dev/icons/)
 
 #### What i try to learn
 
