@@ -1,3 +1,6 @@
+
+# FAQ - component challenge
+=======
 # FAQ card
 
 ![](https://github.com/Nimixx/accordion-fm/assets/51626851/0fb56381-b24a-48d2-aa59-f48ca4e91872)
@@ -20,3 +23,4 @@ This project was build with classic basic stuck and was build like a challenge o
 - [Live component](https://www.nimixx.dev/ )
 - [Front End Mentor](https://www.frontendmentor.io/profile/Nimixx)
 - [Nimixx.dev](https://www.nimixx.dev/)
+
